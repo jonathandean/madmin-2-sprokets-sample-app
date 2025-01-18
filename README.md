@@ -9,3 +9,13 @@ Note: the rails server is running on port 3010 in these screenshots from the com
 ```
 PORT=3010 bin/rails server
 ```
+
+All commands:
+
+1. `rails _7.2.2.1_ new madmin-2-sprokets-sample-app` (Chose the latest Rails 7 because it would come with sprockets working out of the box, reducing any potential for other configuration issues)
+
+2. `bundle install`
+
+3. `rails g madmin:install`
+
+4. Added `HomeController` so there was a route to use as the root_url
