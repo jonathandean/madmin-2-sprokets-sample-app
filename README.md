@@ -1,24 +1,11 @@
-# README
+Sample application to demonstrate the issue reported at https://github.com/excid3/madmin/issues/246#issuecomment-2589888395
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Screenshot 2025-01-18 at 11.41.47 AM.png](public/Screenshot%202025-01-18%20at%2011.41.47%E2%80%AFAM.png)
 
-Things you may want to cover:
+![Screenshot 2025-01-18 at 11.44.06 AM.png](public/Screenshot%202025-01-18%20at%2011.44.06%E2%80%AFAM.png)
 
-* Ruby version
+Note: the rails server is running on port 3010 in these screenshots from the command:
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+PORT=3010 bin/rails server
+```
